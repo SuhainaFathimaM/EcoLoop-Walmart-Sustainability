@@ -97,7 +97,3 @@ Ensure Tailwind is configured in `tailwind.config.js` and included via `@tailwin
 Made with ❤️ for sustainability and learning.
 
 ---
-
-## 📄 License
-
-MIT – Free to use and modify.
