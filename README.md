@@ -54,6 +54,7 @@ ecoloop/
 │   └── index.html
 ├── src/
 │   ├── components/
+│   ├── context/
 │   ├── pages/
 │   ├── data/
 │   ├── styles/
