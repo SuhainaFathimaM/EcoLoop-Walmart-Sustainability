@@ -8,6 +8,10 @@ import ReturnScheduler from "./pages/ReturnScheduler";
 import PackLiteCheckout from "./pages/PackLiteCheckout";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
+import Footer from "./components/Footer";
+
+// Add inside <BrowserRouter> before closing
+<Footer />
 
 function App() {
   return (
