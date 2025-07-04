@@ -18,13 +18,13 @@ const Profile = () => {
           User Info
         </h3>
         <p>
-          <strong>Name:</strong> Suhaina Fathima M
+          <strong>Name:</strong> Suhaina 
         </p>
         <p>
-          <strong>Email:</strong> suhainafathimam@gmail.com
+          <strong>Email:</strong> suhaina@gmail.com
         </p>
         <p>
-          <strong>Location:</strong> Salem, Tamil Nadu
+          <strong>Location:</strong> Tamil Nadu, India
         </p>
       </div>
 
