@@ -7,6 +7,7 @@ const navItems = [
   { path: "/return", label: "♻️ Return" },
   { path: "/checkout", label: "📦 PackLite" },
   { path: "/dashboard", label: "📊 Dashboard" },
+  { path: "/profile", label: "👤 Profile" },
 ];
 
 export default function Navbar() {
@@ -15,7 +16,9 @@ export default function Navbar() {
   return (
     <nav className="bg-gradient-to-r from-green-800 via-lime-600 to-green-500 shadow-md py-4 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <span className="text-xl font-bold text-white tracking-wide">🌿 EcoLoop</span>
+        <span className="text-xl font-bold text-white tracking-wide">
+          🌿 EcoLoop
+        </span>
         <div className="flex space-x-3">
           {navItems.map((item) => (
             <Link
@@ -34,4 +37,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-};
+}
