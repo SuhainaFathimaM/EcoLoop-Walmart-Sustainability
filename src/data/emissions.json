@@ -1,0 +1,38 @@
+{
+  "packagingTypes": {
+    "standard": {
+      "name": "Standard Packaging",
+      "emissions": 2.5,
+      "description": "This is the typical packaging we’re all used to — nothing fancy, but not the greenest.",
+      "impact": "Uses the most plastic and energy. It's reliable but has the highest footprint.",
+      "icon": "Package"
+    },
+    "minimal": {
+      "name": "Minimal Packaging",
+      "emissions": 1.5,
+      "description": "Simplified and smart — it uses less material while keeping your items safe.",
+      "impact": "Cuts plastic by 40% and uses fully recyclable alternatives.",
+      "icon": "PackageOpen"
+    },
+    "tote": {
+      "name": "Reusable Tote",
+      "emissions": 1.2,
+      "description": "A sturdy bag designed to be used again and again — goodbye single-use!",
+      "impact": "Saves 52% emissions and replaces hundreds of plastic bags over time.",
+      "icon": "ShoppingBag"
+    },
+    "grouped": {
+      "name": "Grouped Delivery",
+      "emissions": 0.8,
+      "description": "Orders are bundled with nearby customers to minimize transport emissions.",
+      "impact": "Up to 68% less CO₂ and fewer delivery vehicles on the road.",
+      "icon": "Truck"
+    }
+  },
+  "emissionFacts": [
+    "🚚 Grouped delivery can lower your carbon footprint by up to 68%.",
+    "🛍️ A single reusable tote can replace over 1,000 plastic bags in its lifetime.",
+    "♻️ Minimal packaging cuts down material use by 40% — smart and sustainable.",
+    "🌍 Reusable options like totes eliminate over half of single-use plastic waste."
+  ]
+}
