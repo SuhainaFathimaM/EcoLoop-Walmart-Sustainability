@@ -16,19 +16,19 @@ const EcoTip = ({ selectedType, emissions }) => {
     minimal: {
       icon: Leaf,
       title: "Nice pick! 🌿",
-      message: `Minimal packaging reduces your CO₂ by ${savingsPercentage}%. Small choices, big change.`,
+      message: `Minimal packaging reduces your CO₂ by ₹{savingsPercentage}%. Small choices, big change.`,
       color: "green"
     },
     tote: {
       icon: Award,
       title: "Reusable Wins 🛍️",
-      message: `Tote packaging saves ${savingsPercentage}% of CO₂ and skips plastic completely.`,
+      message: `Tote packaging saves ₹{savingsPercentage}% of CO₂ and skips plastic completely.`,
       color: "green"
     },
     grouped: {
       icon: Award,
       title: "Greenest of All ♻️",
-      message: `Grouped delivery saves ${savingsPercentage}% — the most sustainable choice on the list!`,
+      message: `Grouped delivery saves ₹{savingsPercentage}% — the most sustainable choice on the list!`,
       color: "emerald"
     }
   };
@@ -43,7 +43,7 @@ const EcoTip = ({ selectedType, emissions }) => {
   };
 
   return (
-    <div className={`p-4 rounded-xl border ${colorClasses[tip.color]} shadow-sm transition-all`}>
+    <div className={`p-4 rounded-xl border ₹{colorClasses[tip.color]} shadow-sm transition-all`}>
       <div className="flex items-start gap-3">
         <Icon className="w-5 h-5 mt-0.5 flex-shrink-0" />
         <div>
