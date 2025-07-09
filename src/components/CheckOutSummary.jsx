@@ -21,19 +21,19 @@ const CheckoutSummary = ({
       <div className="space-y-3 mb-6 text-sm text-gray-600">
         <div className="flex justify-between">
           <span>Items Total</span>
-          <span>${orderTotal.toFixed(2)}</span>
+          <span>₹{orderTotal.toFixed(2)}</span>
         </div>
         <div className="flex justify-between">
           <span>Shipping</span>
-          <span>$5.99</span>
+          <span>₹50</span>
         </div>
         <div className="flex justify-between">
           <span>Tax (8%)</span>
-          <span>${(orderTotal * 0.08).toFixed(2)}</span>
+          <span>₹{(orderTotal * 0.08).toFixed(2)}</span>
         </div>
         <div className="border-t pt-3 flex justify-between font-semibold text-base text-gray-900">
           <span>Total</span>
-          <span>${(orderTotal + 5.99 + orderTotal * 0.08).toFixed(2)}</span>
+          <span>₹{(orderTotal + 50 + orderTotal * 0.08).toFixed(2)}</span>
         </div>
       </div>
 
@@ -74,4 +74,5 @@ const CheckoutSummary = ({
 };
 
 export default CheckoutSummary;
+
 
