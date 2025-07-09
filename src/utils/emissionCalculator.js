@@ -37,7 +37,7 @@ export const getBestPackagingOption = () => {
 
 /**
  * 🧠 Suggests a packaging type based on cart size and total value.
- * @param {number} orderValue - Total order amount in $
+ * @param {number} orderValue - Total order amount in ₹
  * @param {number} itemCount - Number of items in the cart
  * @returns {string} - Recommended packaging option
  */
@@ -53,11 +53,11 @@ export const getPackagingRecommendation = (orderValue, itemCount) => {
 
 /**
  * 🎯 Calculates LoopPoints (rewards) earned for eco-friendly choices.
- * Base: 1 point per $1 spent
+ * Base: 1 point per ₹1 spent
  * Bonus: 10 points per kg of CO₂ saved
  *
  * @param {string} selectedType - The packaging type chosen
- * @param {number} orderValue - Total order value in $
+ * @param {number} orderValue - Total order value in ₹
  * @returns {number} - Total LoopPoints earned
  */
 export const calculateLoopPoints = (selectedType, orderValue) => {
@@ -67,3 +67,4 @@ export const calculateLoopPoints = (selectedType, orderValue) => {
 
   return base + bonus;
 };
+
