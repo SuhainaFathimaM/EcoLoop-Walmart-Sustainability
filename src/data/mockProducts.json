@@ -3,7 +3,7 @@
     {
       "id": "p1",
       "name": "Organic Granola",
-      "price": 12.99,
+      "price": 250,
       "quantity": 2,
       "category": "Food",
       "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=300"
@@ -11,7 +11,7 @@
     {
       "id": "p2",
       "name": "Eco-Friendly Shampoo",
-      "price": 8.50,
+      "price": 150,
       "quantity": 1,
       "category": "Personal Care",
       "image": "Sustainable green shampoo bottle.jpeg"
@@ -19,11 +19,11 @@
     {
       "id": "p3",
       "name": "Bamboo Toothbrush Set",
-      "price": 15.99,
+      "price": 100,
       "quantity": 1,
       "category": "Personal Care",
       "image": "https://images.pexels.com/photos/3962228/pexels-photo-3962228.jpeg?auto=compress&cs=tinysrgb&w=300"
     }
   ],
-  "orderTotal": 50.47
+  "orderTotal": 500
 }
