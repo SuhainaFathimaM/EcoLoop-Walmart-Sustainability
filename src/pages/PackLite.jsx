@@ -92,7 +92,7 @@ const PackLite = () => {
                       <h4 className="font-medium text-gray-900">{item.name}</h4>
                       <p className="text-sm text-gray-600">Qty: {item.quantity}</p>
                     </div>
-                    <span className="font-medium text-gray-900">${item.price.toFixed(2)}</span>
+                    <span className="font-medium text-gray-900">₹{item.price.toFixed(2)}</span>
                   </div>
                 ))}
               </div>
