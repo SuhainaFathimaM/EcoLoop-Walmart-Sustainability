@@ -23,7 +23,7 @@ const PackagingOption = ({
   return (
     <div
       onClick={onSelect}
-      className={`relative p-6 rounded-xl border-2 cursor-pointer transition-all duration-300 hover:shadow-lg ${
+      className={`relative p-6 rounded-xl border-2 cursor-pointer transition-all duration-300 hover:shadow-lg ₹{
         isSelected
           ? 'border-green-600 bg-green-50 shadow-md'
           : 'border-gray-200 hover:border-green-300'
@@ -36,8 +36,8 @@ const PackagingOption = ({
       )}
 
       <div className="flex items-start gap-4">
-        <div className={`p-3 rounded-lg ${isSelected ? 'bg-green-600' : 'bg-gray-100'}`}>
-          <Icon className={`w-6 h-6 ${isSelected ? 'text-white' : 'text-gray-600'}`} />
+        <div className={`p-3 rounded-lg ₹{isSelected ? 'bg-green-600' : 'bg-gray-100'}`}>
+          <Icon className={`w-6 h-6 ₹{isSelected ? 'text-white' : 'text-gray-600'}`} />
         </div>
 
         <div className="flex-1">
