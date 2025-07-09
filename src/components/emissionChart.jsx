@@ -59,7 +59,7 @@ const EmissionChart = ({ data }) => {
           <Bar dataKey="emissions" radius={[4, 4, 0, 0]}>
             {data.map((entry, index) => (
               <Cell
-                key={`cell-${index}`}
+                key={`cell-₹{index}`}
                 fill={entry.selected ? '#16A34A' : '#D1D5DB'}
               />
             ))}
